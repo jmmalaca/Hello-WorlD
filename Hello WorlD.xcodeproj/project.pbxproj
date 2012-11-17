@@ -29,7 +29,6 @@
 		70BDDD761456BD71009B2611 /* Hello WorlD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello WorlD"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BDDD7A1456BD71009B2611 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70BDDD7D1456BD71009B2611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70BDDD801456BD71009B2611 /* Hello WorlD-Prefix.pch */ = {isa = PBXFileReference; path = "Hello WorlD-Prefix.pch"; sourceTree = "<group>"; };
 		70BDDD811456BD71009B2611 /* Hello_WorlD.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hello_WorlD.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,17 +74,8 @@
 			children = (
 				70BDDD7D1456BD71009B2611 /* main.m */,
 				70BDDD811456BD71009B2611 /* Hello_WorlD.1 */,
-				70BDDD7F1456BD71009B2611 /* Supporting Files */,
 			);
 			path = "Hello WorlD";
-			sourceTree = "<group>";
-		};
-		70BDDD7F1456BD71009B2611 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				70BDDD801456BD71009B2611 /* Hello WorlD-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +214,7 @@
 				70BDDD871456BD71009B2611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
